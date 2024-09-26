@@ -1,0 +1,44 @@
+.wrapper{
+    width: 1280px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.navbar ul {
+    display: inline-block;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #484848;
+    padding: 30px;
+}
+.button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 13px 28px 13px 28px;
+    text-decoration: none;
+}
+.ultimate-sale img{
+    width: 1281px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.brands-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.brands-logo img{
+    width: 196px;
+}

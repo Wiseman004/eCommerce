@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'Shototam';
-    src: url(/eCommerce/digital-numbers/DigitalNumbers-Regular.ttf) format('ttf');
+    src: url(/src/digital-numbers/DigitalNumbers-Regular.ttf) format('ttf');
     font-weight: 100;
 }
 
@@ -395,7 +395,6 @@
 }
 
 .text-and-galery {
-    padding-top: 50px;
     padding-bottom: 110px;
 }
 
@@ -404,7 +403,6 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 100px;
 }
 
 .feedback-block {

@@ -1,6 +1,7 @@
 .wrapper {
     width: 1280px;
     margin: 0 auto;
+    display: flex;
 }
 
 .wrapper-right {
@@ -113,7 +114,24 @@
     margin-top: 60px;
     margin-bottom: 60px;
 }
+.burger-menu {
+    position: relative;
+}
 
+.burger {
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line {
+    height: 3px;
+    background-color: #333;
+    transition: all 0.3s;
+}
 .navbar ul {
     display: inline-block;
 }
@@ -140,11 +158,12 @@
     font-weight: 300;
 
 }
-
 .ultimate-sale img {
-    width: 1281px;
+    width: 100%;
     margin-bottom: 15px;
+    height: auto;
 }
+
 
 .brands-logo {
     display: flex;
@@ -489,6 +508,8 @@
     left: calc(50% - 96px);
     margin-top: 100px;
     padding-bottom: 50px;
+    max-width: 700px;
+
 }
 
 .subscribe-block {
@@ -522,7 +543,6 @@ input[type="email"] {
     font-size: 22px;
     color: #8A8A8A;
     padding: 0 10px;
-
 }
 
 .footer-separator {
@@ -560,5 +580,44 @@ input[type="email"] {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+
+}
+
+@media screen and (min-width: 1020px) {
+    .burger-menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .burger-menu {
+        display: none;
+    }
+    .header{
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .ultimate-sale{
+        margin-right: 40px;
+        margin-left: 40px;
+        display: none;
+    }
+
+    .slider-block{
+        display: none;
+    }
+    .peaky-blinders-block{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        display: none;
+    }
+    .burger-menu {
+        display: flex;
+    }
+    
 
 }

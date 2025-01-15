@@ -49,6 +49,7 @@
     font-weight: 400;
     font-size: 28px;
     font-family: Poppins;
+    line-height: 0;
 }
 
 .product-name-title {
@@ -57,7 +58,7 @@
     font-family: Poppins;
     line-height: 0;
     color: #484848;
-    ;
+
 }
 
 .product-name-subtitle-grey {
@@ -225,12 +226,13 @@
     height: 48px;
     border-radius: 100%;
     text-align: center;
+    border: 0;
+
 }
 
 .arrow img {
-    width: 7px;
+    width: 100%;
     height: 14px;
-    margin: 17px;
 }
 
 .products {
@@ -238,17 +240,21 @@
 }
 
 .products img {
-    margin-left: 20px;
+    flex-shrink: 0; /* Не позволяет слайдам сжиматься */
+    margin-left: 20px; /* Промежуток между картинками */
 }
 
+
+
 .spring-sale {
-    width: 170px;
-    height: 103px;
+    width: auto;
+    height: auto;
     background-color: white;
     position: absolute;
     bottom: 33px;
     left: 50px;
-    padding: 27px;
+    padding: 20px;
+    opacity: 0.9;
 }
 
 .spring-sale h2 {
@@ -264,11 +270,10 @@
 .elipse-block {
     display: flex;
     margin: 70px 20px 0 25px;
-
+    
 }
 
 .border-ellipse {
-    border: solid 1px;
     border-radius: 100%;
 }
 
@@ -277,7 +282,7 @@
     height: 11px;
     background-color: black;
     border-radius: 100%;
-    margin: 5px;
+    margin: 10px;
 }
 
 .ellipse {
@@ -285,7 +290,7 @@
     height: 11px;
     background-color: #B6B6B6;
     border-radius: 100%;
-    margin: 6px 10px 0 18px;
+    margin: 10px;
 }
 
 .text-only-blocks {
@@ -583,7 +588,7 @@ input[type="email"] {
 
 }
 
-@media screen and (min-width: 1020px) {
+/* @media screen and (min-width: 1020px) {
     .burger-menu {
         display: none;
     }
@@ -620,4 +625,4 @@ input[type="email"] {
     }
     
 
-}
+} */

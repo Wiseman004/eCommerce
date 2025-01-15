@@ -1,9 +1,9 @@
 const data = {
     "slider": {
-        "saleEndDate": "2024-12-31 2:00:00",
+        "saleEndDate": "2025-01-31 2:00:00",
         "products": [{
                 "imageUrl": "https://cdn.kasta.ua/image/1035/s3/supplier_provided_link/ad2/584/73d/436/a37/15a/768/61a/2b5.jpeg",
-                "discountPercentage": 30,
+                "discountPercentage": 40,
                 "productName": "Чорна жіноча сукня штапель"
             },
             {

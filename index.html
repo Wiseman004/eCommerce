@@ -93,34 +93,34 @@
             <div class="arrow-blocks">
                 <div class="arrow-block">
                     <div class="arrow" style="margin-right: 30px;">
-                        <img src="./src/images/left-arrow.svg" alt="arrow">
+                        
+                        <button class="arrow arrow-left"><img src="./src/images/left-arrow.svg" alt="" onclick="changeImg('left')"></button>
                     </div>
                     <div class="arrow">
-                        <img src="./src/images/right-arrow.svg" alt="arrow">
+                       
+                       <button class="arrow arrow-right"><img src="./src/images/right-arrow.svg" alt=""  onclick="changeImg('right')"></button>
                     </div>
                 </div>
             </div>
             <div class="products">
                 <div class="up-picture">
-                    <img src="./src/images/photo-slider-one.png" alt="product" width="404 " height="582 ">
+                    <img src="" alt="product" width="404 " height="582 " id="img1" >
                     <div class="spring-sale">
-                        <p class="normal-text">01 — Spring Sale</p>
-                        <p class="sub-title">30% OFF</p>
-
+                        <p class="normal-text" id="productName"></p>
+                        <p class="sub-title" id="discount"></p>
                     </div>
                 </div>
                 <div>
-                    <img src="./src/images/photo-slider-two.png" alt="product" width="372 " height="486 ">
+                    <img src="" alt="product" width="372 " height="486 " id="img2">
                     <div class="elipse-block">
                         <div class="border-ellipse">
                             <div class="active-ellipse"></div>
                         </div>
                         <div class="ellipse"></div>
-                        <div class="ellipse"></div>
-                        <div class="ellipse"></div>
+                        <div class="ellipse" id="ellipse-three"></div>
                     </div>
                 </div>
-                <img src="./src/images/photo-slider-three.png" alt="product" width="205 " height="486 ">
+                <img src="" alt="product" width="372" height="486 " id="img3">
             </div>
         </div>
     </div>
@@ -388,7 +388,11 @@
             Xpro . All Rights Reseved.</p>
 
     </div>
+    
     <script src="timer.js"></script>
+    <script src="slider.js"></script>
+    <script src="NewArrivals.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 </body>
 
 </html>

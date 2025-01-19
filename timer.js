@@ -4,11 +4,12 @@ const minute = document.getElementById('minute')
 const second = document.getElementById('second')
 const timerBlock = document.querySelector(".timer-block");
 
+
 const endSaleTime = new Date(data.slider.saleEndDate);
 
 
 if (isNaN(endSaleTime.getTime()) || !data.slider.saleEndDate) {
-    timerBlock.style.display = "none";
+    document.querySelector(".slider-block").style.display = "none";
 } else {
 
     function updateTimer() {

@@ -56,8 +56,8 @@
     font-weight: 500;
     font-size: 20px;
     font-family: Poppins;
-    line-height: 0;
     color: #484848;
+
 
 }
 
@@ -80,8 +80,15 @@
 .availability-red-text {
     font-family: Poppins;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 15px;
     color: #FF4646;
+}  
+
+.availability-green-text {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 15px;
+    color: #00B14F;
 }
 
 .name-text {
@@ -227,8 +234,10 @@
     border-radius: 100%;
     text-align: center;
     border: 0;
-
 }
+.arrow:hover {
+    background-color: #F2F2F2;
+    cursor: pointer;}
 
 .arrow img {
     width: 100%;
@@ -310,9 +319,20 @@
     border-radius: 10px;
     padding: 15px 40px 13px 40px;
     text-decoration: none;
+    border: 0;
+    cursor: pointer;
+
 }
 
-.category-active {
+.category.hide{
+    display: none;
+}
+
+.category.show{
+    display: block;
+}
+
+.category.active {
     background-color: black;
     color: white;
     border-radius: 10px;
@@ -320,6 +340,24 @@
     text-decoration: none;
     box-shadow: 0px 20px 35px 0px #00000026;
 }
+
+.category:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 40px 13px 40px;
+    text-decoration: none;
+    box-shadow: 0px 20px 35px 0px #00000026;
+}
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}
+
 
 .announcement-block {
     display: flex;
@@ -329,14 +367,23 @@
 }
 
 .announcement-box {
+    height: auto;
+    width: 300px;
     padding: 20px;
     box-shadow: 0px 40px 90px 0px #0000000F;
     margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.announcement-box img {
+    width: 280px;
+    height: auto;
+    position: relative;
+    left: calc(50% - 140px);
 }
 
 .title-and-stars {
-    display: flex;
-    justify-content: space-between;
+    display: block;
     margin-top: 10px;
 }
 
@@ -360,7 +407,12 @@
     transform: rotate(21.9deg);
 
 } */
-
+.viev-more{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;;
+}
 .peaky-blinders-photo {
     clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
     position: absolute;
@@ -588,7 +640,7 @@ input[type="email"] {
 
 }
 
-/* @media screen and (min-width: 1020px) {
+@media screen and (min-width: 1020px) {
     .burger-menu {
         display: none;
     }
@@ -625,4 +677,4 @@ input[type="email"] {
     }
     
 
-} */
+}

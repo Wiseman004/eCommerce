@@ -12,13 +12,13 @@
     <link
         href="https://fonts.googleapis.com/css?family=Chakra+Petch:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic"
         rel="stylesheet" />
-        <script src="data.js" type="text/javascript"></script>
-        
+    <script src="data.js" type="text/javascript"></script>
+
     <title>eCommerce</title>
 </head>
 
 <body>
-    
+
     <div class="header wrapper">
         <div class="logo">
             <img src="./src/images/logo.svg" alt="logo">
@@ -29,7 +29,7 @@
                 <div class="line"></div>
                 <div class="line"></div>
             </div>
-        </div >
+        </div>
         <div class="navbar normal-text">
             <ul>
                 <li><a href="#">Home </a></li>
@@ -93,18 +93,20 @@
             <div class="arrow-blocks">
                 <div class="arrow-block">
                     <div class="arrow" style="margin-right: 30px;">
-                        
-                        <button class="arrow arrow-left"><img src="./src/images/left-arrow.svg" alt="" onclick="changeImg('left')"></button>
+
+                        <button class="arrow arrow-left"><img src="./src/images/left-arrow.svg" alt=""
+                                onclick="changeImg('left')"></button>
                     </div>
                     <div class="arrow">
-                       
-                       <button class="arrow arrow-right"><img src="./src/images/right-arrow.svg" alt=""  onclick="changeImg('right')"></button>
+
+                        <button class="arrow arrow-right"><img src="./src/images/right-arrow.svg" alt=""
+                                onclick="changeImg('right')"></button>
                     </div>
                 </div>
             </div>
             <div class="products">
                 <div class="up-picture">
-                    <img src="" alt="product" width="404 " height="582 " id="img1" >
+                    <img src="" alt="product" width="404 " height="582 " id="img1">
                     <div class="spring-sale">
                         <p class="normal-text" id="productName"></p>
                         <p class="sub-title" id="discount"></p>
@@ -131,13 +133,262 @@
             Scelerisque duis ultrices sollicitudin </p>
     </div>
     <div class="category-block wrapper">
-        <a href="#" class="category">Mans's Fashion</a>
-        <a href="#" class="category-active">Women’s Fashion</a>
-        <a href="#" class="category">Women Accessories</a>
-        <a href="#" class="category">Men Accessories</a>
-        <a href="#" class="category">Discount Deals</a>
+        <button type="button" class="category active" data-tab="#tab_1" data-category="womensFashion"> Women’s Fashion</button>
+        <button type="button" class="category" data-tab="#tab_2" data-category="mensFashion">Mans's Fashion</button>
+        <button type="button" class="category" data-tab="#tab_3" data-category="womensAccessories">Women Accessories</button>
+        <button type="button" class="category" data-tab="#tab_4" data-category="mensAccessories">Men Accessories</button>
+        <button type="button" class="category" data-tab="#tab_5" data-category="discountDeals">Discount Deals</button>
     </div>
-
+<div class="tab active" id="tab_1" >
+    <div class="announcement-block wrapper">
+        <div class="announcement-box">
+            <img src="./src/images/product-1.png" alt="product">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">Shiny Dress  </br></h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-2.png" alt="product">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">Long Dress</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-3.png" alt="product">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">Full Sweater</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-4.png" alt="product">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">White Dress</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-5.png" alt="product">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">Colorful Dress</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-6.png" alt="product">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">White Shirt</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <a href="#" class="button normal-text indent-text" style="margin: auto; margin-bottom: 100px ;">View More</a>
+    </div>
+</div>
+<div class="tab" id="tab_2">
+    <div class="announcement-block wrapper">
+        <div class="announcement-box">
+            <img src="./src/images/product-2.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">Shiny Dress</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-2.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">Long Dress</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-3.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">Full Sweater</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-4.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">White Dress</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-5.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">Colorful Dress</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-6.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">White Shirt</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <a href="#" class="button normal-text indent-text" style="margin: auto; margin-bottom: 100px ;">View More</a>
+    </div>
+</div>
+<div class="tab" id="tab_3">
+    <div class="announcement-block wrapper">
+        <div class="announcement-box">
+            <img src="./src/images/product-3.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">Shiny Dress</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-2.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">Long Dress</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-3.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">Full Sweater</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-4.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">White Dress</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-5.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">Colorful Dress</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-6.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">White Shirt</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <a href="#" class="button normal-text indent-text" style="margin: auto; margin-bottom: 100px ;">View More</a>
+    </div>
+</div>
+<div class="tab" id="tab_4">
     <div class="announcement-block wrapper">
         <div class="announcement-box">
             <img src="./src/images/product-1.png" alt="product" width="336 " height="244 ">
@@ -219,6 +470,96 @@
         </div>
         <a href="#" class="button normal-text indent-text" style="margin: auto; margin-bottom: 100px ;">View More</a>
     </div>
+</div>
+<div class="tab" id="tab_5">
+    <div class="announcement-block wrapper">
+        <div class="announcement-box">
+            <img src="./src/images/product-1.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">Shiny Dress</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-2.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">Long Dress</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-3.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">Full Sweater</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-4.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">White Dress</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-5.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">Colorful Dress</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        <div class="announcement-box">
+            <img src="./src/images/product-6.png" alt="product" width="336 " height="244 ">
+            <div class="title-and-stars">
+                <h2 class="product-name-title">White Shirt</h2>
+                <img src="./src/images/stars.svg" alt="stars" width="95 ">
+            </div>
+            <p class="product-name-subtitle-grey">Al Karam</p>
+            <p class="product-name-subtitle-dark-grey">(4.1k) Customer Reviews</p>
+            <div class="price-and-availability">
+                <h2 class="value-text">$95.50</h2>
+                <p class="availability-red-text">Almost Sold Out</p>
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+<div class="wrapper">
+    <a href="#" class="button normal-text indent-text viev-more" style="margin: auto; margin-bottom: 100px ;">View More</a>
+</div>
+
+
     <div class="peaky-blinders-block ">
         <div class="peaky-blinders-photo">
             <img src="./src/images/peaky-blinders.png" alt="peaky-blinders" width="900 " height="570 ">
@@ -388,11 +729,10 @@
             Xpro . All Rights Reseved.</p>
 
     </div>
-    
+
     <script src="timer.js"></script>
     <script src="slider.js"></script>
     <script src="NewArrivals.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 </body>
 
 </html>
